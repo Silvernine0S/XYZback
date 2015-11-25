@@ -1,0 +1,57 @@
+-- Misc Notes
+http:pp4s.co.uk/index.html
+http:wiki.freepascal.org/Form_Tutorial
+http:stackoverflow.com/questions/24430987/lazarus-the-effect-of-application-processmessages
+http:wiki.freepascal.org/Executing_External_Programs
+http:wiki.lazarus.freepascal.org/Alternative_Main_Page
+http:wiki.lazarus.freepascal.org/Pascal_and_Lazarus_Books_and_Magazines
+http:forum.lazarus.freepascal.org/index.php?topic=15715.0
+http:wiki.freepascal.org/Executing_External_Programs
+http:wiki.lazarus.freepascal.org/Parameters
+http:stackoverflow.com/questions/26085097/why-is-the-default-function-parameter-getting-rejected-in-free-pascal
+http://wiki.freepascal.org/Command_line_parameters_and_environment_variables
+http:forum.lazarus.freepascal.org/index.php?topic=30193.0
+http:forum.lazarus.freepascal.org/index.php?topic=29567.0
+http:forum.lazarus.freepascal.org/index.php?topic=27240.0
+http://forum.lazarus.freepascal.org/index.php?topic=13958.0 OnCreate, OnActivate, OnShow
+  http://wiki.freepascal.org/Event_order
+http://forum.lazarus.freepascal.org/index.php?topic=8243.0 Open URLs
+
+-- Show all passed parameters
+var
+I: Integer;
+procedure TMain.Button1Click(Sender: TObject);
+begin
+    for I := 1 to ParamCount do
+      ShowMessage(ParamStr(I));
+end;
+
+-- Unicode Hell
+http:wiki.freepascal.org/FPC_Unicode_support
+http:wiki.freepascal.org/LCL_Unicode_Support
+http:wiki.freepascal.org/Character_and_string_types#String
+http:wiki.freepascal.org/unicode_use_cases
+http:wiki.freepascal.org/LCL_Unicode_Support
+http:wiki.freepascal.org/Better_Unicode_Support_in_Lazarus
+https:www.reddit.com/r/programming/comments/3d9iii/lazarus_142_has_been_released/
+http:forum.lazarus.freepascal.org/index.php?topic=30022.0
+http:forum.lazarus.freepascal.org/index.php?topic=25036.0
+http:forum.lazarus.freepascal.org/index.php/topic,22403.msg132518.html#msg132518 Solved!?
+http:forum.lazarus.freepascal.org/index.php?topic=29998.0
+http:forum.lazarus.freepascal.org/index.php?topic=28376.0 Write File
+http:www.freepascal.org/docs-html/3.0.0/prog/progsu88.html#x96-950001.3.5
+http:www.unicode.org/faq/utf_bom.html
+http:forum.lazarus.freepascal.org/index.php?topic=18112.0 UTF8ToUTF8BOM
+http:stackoverflow.com/questions/2223882/whats-different-between-utf-8-and-utf-8-without-bom
+http://free-pascal-lazarus.989080.n3.nabble.com/Lazarus-LazUtils-TProcessUTF8-UTF8-Parameters-issue-td4037755.html
+http://stackoverflow.com/questions/16673564/how-to-get-the-real-file-contents-using-tfilestream !!!!
+  http://www.freepascal.org/docs-html/rtl/classes/tfilestream.html
+  http://www.freepascal.org/docs-html/rtl/classes/tfilestream.create.html
+http://forum.lazarus.freepascal.org/index.php?topic=9632.0 UTF16 to UTF8
+http://www.experts-exchange.com/questions/25643649/Problem-with-Loadfromfile-unicode.html
+https://marc.durdin.net/2011/10/loading-a-unicode-string-from-a-file-with-delphi-functions-2/
+  https://marc.durdin.net/2011/10/comparing-tstringstream-vs-tstringlist-for-writing-unicode-strings-to-streams-2/
+http://forum.lazarus.freepascal.org/index.php?topic=29567.0
+http://forum.lazarus.freepascal.org/index.php?topic=21817.0 UTF8Tools!!! <- This is the one!!
+UTF8Encode
+Libraries: LazUTF8, LConvEncoding, UTF8Process, charencstreams, lclintf (OpenURL)

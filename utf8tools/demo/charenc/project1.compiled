@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1230780955"/>
+  <Params Value=" -MObjFPC -Sgi -Cro -O1 -gl -WG -vewnhi -l -Fi/home/theo/lazarus/projects/utf8tools/demo/charenc/ -Fu/home/theo/lazarus/projects/utf8tools/lib/i386-linux/ -Fu/home/theo/lazarus/svn/lazarus/lcl/units/i386-linux/ -Fu/home/theo/lazarus/svn/lazarus/lcl/units/i386-linux/gtk2/ -Fu/home/theo/lazarus/svn/lazarus/packager/units/i386-linux/ -Fu/home/theo/lazarus/projects/utf8tools/demo/charenc/ -Fu. -o/home/theo/lazarus/projects/utf8tools/demo/charenc/project1 -dLCL -dLCLgtk2 project1.lpr"/>
+</CONFIG>
