@@ -1,7 +1,7 @@
 object Main: TMain
-  Left = 1320
+  Left = 694
   Height = 360
-  Top = 280
+  Top = 321
   Width = 515
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
@@ -14,7 +14,7 @@ object Main: TMain
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
   Position = poScreenCenter
-  LCLVersion = '1.5'
+  LCLVersion = '1.6.4.0'
   object ModeofOperation: TRadioGroup
     Left = 10
     Height = 48

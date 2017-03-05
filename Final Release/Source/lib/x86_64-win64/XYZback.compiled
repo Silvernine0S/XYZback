@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\Lazarus\fpc\3.0.2\bin\x86_64-win64\fpc.exe" Date="1247518955"/>
+  <Params Value=" -Twin64 -Px86_64 -MObjFPC -Scghi -Os3 -WG -l -vewnhibq -FiE:\Documents\GitHub\XYZback\lib\x86_64-win64 -FuE:\Documents\GitHub\XYZback\utf8tools\lib\x86_64-win64 -FuC:\Lazarus\lcl\units\x86_64-win64\win32 -FuC:\Lazarus\lcl\units\x86_64-win64 -FuC:\Lazarus\components\lazutils\lib\x86_64-win64 -FuC:\Lazarus\packager\units\x86_64-win64 -FuE:\Documents\GitHub\XYZback\ -FUE:\Documents\GitHub\XYZback\lib\x86_64-win64\ &quot;-oXYZback x64.exe&quot; -dLCL -dLCLwin32 -FcUTF8 XYZback.lpr"/>
+</CONFIG>

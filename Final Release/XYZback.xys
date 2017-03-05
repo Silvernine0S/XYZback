@@ -1,0 +1,13 @@
+"Mirror|<xyscripts>\Zback\XYZback.exe"
+	$Executable = "<xyscripts>\Zback\XYZback.exe";
+	WriteFile("<xyscripts>\Zback\XYZbackStart.txt", "<path 1><crlf><path 2><crlf>",o,tu);
+	Run """$Executable"" mirror altmethod", "<xyscripts>\Zback";
+
+"Synchronize|<xyscripts>\Zback\XYZback.exe"
+	$Executable = "<xyscripts>\Zback\XYZback.exe";
+	WriteFile("<xyscripts>\Zback\XYZbackStart.txt", "<path 1><crlf><path 2><crlf>",o,tu);
+	Run """$Executable"" sync altmethod", "<xyscripts>\Zback";
+
+""
+"Edit|:conf"
+	Openwith "Notepad",,"<xyscripts>\XYZback.xys";

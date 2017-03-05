@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="C:\FPC\3.0.0\bin\i386-win32\fpc.exe" Date="1198658037"/>
-  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq -FuC:\FPC\Lazarus\packager\units\i386-win32 -FuC:\FPC\Lazarus\components\lazutils\lib\i386-win32 -FuC:\FPC\Lazarus\lcl\units\i386-win32 -FuC:\FPC\Lazarus\lcl\units\i386-win32\win32 -FuE:\Dropbox\XYZback\utf8tools\ -FUE:\Dropbox\XYZback\utf8tools\lib\i386-win32\ -dLCL -dLCLwin32 utf8tools.pas"/>
+  <Compiler Value="C:\Lazarus\fpc\3.0.2\bin\x86_64-win64\fpc.exe" Date="1247518955"/>
+  <Params Value=" -Twin32 -Pi386 -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq -FuC:\Lazarus\packager\units\i386-win32 -FuC:\Lazarus\components\lazutils\lib\i386-win32 -FuC:\Lazarus\lcl\units\i386-win32 -FuC:\Lazarus\lcl\units\i386-win32\win32 -FuE:\Documents\GitHub\XYZback\utf8tools\ -FUE:\Documents\GitHub\XYZback\utf8tools\lib\i386-win32\ -dLCL -dLCLwin32 utf8tools.pas"/>
 </CONFIG>

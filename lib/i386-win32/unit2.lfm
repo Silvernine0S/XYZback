@@ -1,7 +1,7 @@
 object About: TAbout
-  Left = 1320
+  Left = 792
   Height = 230
-  Top = 701
+  Top = 386
   Width = 320
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
@@ -10,14 +10,14 @@ object About: TAbout
   ClientWidth = 320
   OnCreate = FormCreate
   Position = poOwnerFormCenter
-  LCLVersion = '1.5'
+  LCLVersion = '1.6.4.0'
   object AboutText: TStaticText
     Left = 8
     Height = 99
     Top = 5
     Width = 304
     Alignment = taCenter
-    Caption = 'XYZback Version 0.5'#13#10'Written by Enternal from XYplorer'#13#10#13#10'XYplorer and Zback belongs to their respective authors.'#13#10'Thank you very much to the authors of these two wonderful software!'
+    Caption = 'XYZback Version 1.0.0'#13#10'Written by Enternal from XYplorer'#13#10#13#10'XYplorer and Zback belongs to their respective authors.'#13#10'Thank you very much to the authors of these two wonderful software!'
     TabOrder = 0
   end
   object XYplorer: TImage
